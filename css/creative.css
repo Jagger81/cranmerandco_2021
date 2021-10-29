@@ -1,0 +1,525 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.fa-linkedin-square {
+  color: #9d003d;
+}
+
+
+#profilepic {
+  border: .5rem solid;
+  color: #9d003d;
+}
+
+#ryan .card-img-top, #polish .card-img-top{
+   align-self: center;
+   padding-top: 20px;
+   height: 150px;
+   width: 150px;
+}
+
+#bath .card-img-top{
+   align-self: center;
+   padding-top: 20px;
+   height: 150px;
+   width: 190px;
+}
+
+#dublin360 .card-img-top, #fighter .card-img-top{
+   align-self: center;
+   padding-top: 20px;
+   height: 60px;
+   width: 190px;
+}
+
+#elita .card-img-top{
+   align-self: center;
+   padding-top: 20px;
+   height: 80px;
+   width: 210px;
+}
+
+.card-header, .card-footer{
+  background-color: #fbf9e9;
+  border-color: #9d003d;
+}
+
+.card-header{
+  font-size: large;
+  color:#9d003d;
+}
+
+.card{
+  padding:5px;
+  border-color: transparent;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+hr.light {
+  border-color: #9d003d;
+}
+
+a {
+  color: #F05F40;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #f05f40;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.bg-primary p{
+  text-align:justify;
+  color: #660033;
+}
+
+.bg-primary {
+  background-color: white !important;
+  /*background-image: url("../img/CranmerNos-1.png");
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover; */
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+  background-image: url("../img/portfolio_background.png");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+}
+
+#services {
+  background-color: #fbf9e9 !important;
+}
+
+#contact {
+  background-color: #fbf9e9 !important;
+  /* background-image: url("../img/contact_background.png"); */
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+}
+
+#location {
+  background-color: gray !important;
+  background-image: url("../img/location_background.png");
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(238, 238, 238, 1);
+}
+
+:#location_box { /*currently not in use */
+  background-color: white !important;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  padding:10px;
+  color: rgba(238, 238, 238, 1);
+}
+
+#location_map {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+
+  -moz-box-shadow: 10px 10px 15px #031121;
+  -webkit-box-shadow: 10px 10px 15px #031121;
+  box-shadow: 10px 10px 15px #031121;
+}
+
+/* test on using background images on services sections
+  #test1 {
+  background-image: url("../img/portfolio/thumbnails/1a.jpg");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+} */
+
+#cat {
+	height: 62px;
+}
+
+input[type=submit] {
+    background-color: #9d003d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: black;
+}
+
+/* Add a background color and some padding around the form */
+.contact_form {
+    padding: 20px;
+	color:white;
+	background-color: #212529 !important;
+    background-image: url("../img/contact_form_background3.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact_form h2{
+    text-align:center;
+}
+.thank_you {
+    padding: 20px;
+	color:white;
+	background-color: #212529 !important;
+    background-image: url("../img/msg_received3.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+	text-align:center;
+	height:350px;
+}
+
+.input-group-addon{
+	color:#9d003d; /*icon colours*/ 
+	background-color: #ffffff;
+    padding: 15px 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px 0px 0px 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	font-size:20px;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section {
+  padding: 8rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+#mainNav {
+  border-bottom: none;
+  background-color: transparent; /* colour for responsive mobile devices */
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fbf9e9; /* background colour of Navbar on mobile device, when scrolling*/
+  }
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #9d003d; /* colour for smaller screen menu - no need for this unless it is text, it is currently an image */
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: black;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #9d003d; /* colour for hover of items on small screen */
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #9d003d !important;
+  background-color: transparent; /* used to highlight navbar items when on that particular section, scrolling down the page */
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent; /*default colour of navbar*/
+  }
+  #mainNav .navbar-brand {
+    color: white;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #8c1d40; /* not currently used, text replaced with an image */
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #9d003d;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: black;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fbf9e9; /* responsive background colour of Navbar */
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #9d003d;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #9d003d;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: black;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #9d003d;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/CranmerNos-1.png");
+  background-blend-mode: lighten;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fbf9e9;  /* code from graphic designer is #f7f3cf */
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+    #map_logo_img {
+         max-width:20%;
+         max-height:20%;
+    }
+	
+	#location_map {
+         max-width:90%;
+         max-height:90%;
+    }
+} /* used for setting the max-size of the map logo and google maps section */
+
+.service-box {
+  max-width: 400px;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.text-block{
+    position: absolute;
+    top: 50px;
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+	opacity:0.8;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(240, 95, 64, 0.9);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+
+.text-primary {
+  color: #8c1d40 !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #8c1d40!important;;
+  border-color: black;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: black !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-light {
+  background-color: #8c1d40!important;;
+  border-color: black;
+  color: white;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #fff;
+  background-color: black !important;
+}
